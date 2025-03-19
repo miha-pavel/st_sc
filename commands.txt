@@ -1,1 +1,38 @@
 python3 -m venv venv - создаем виртуальное окружение для проекта
+deactivate - выйти из виртуального окружения
+. venv/bin/activate - зайти в виртуальное окружение
+pwd - где я сейчас нахожусь какой путь к папке
+cd - выйти в корень
+cd <имя директории>
+cd -   возврат на предыдущее положение
+pip freeze - проверяем наличие и версию установленных библиотек в виртуально окружение
+history - история предыдущих команд в терминале
+pip freeze > requirements.txt - записываем фриз в файл requirements.txt
+pip install -r requirements.txt - пакетный менеджер устанавливает рекурсивно все что находится в requirements.txt
+
+## First Launch
+
+# Project Name
+ST_SC
+
+## Tech Stack
+Python 3.12.3
+
+## Installing Dependencies
+Ensure Python 3.12.3 + is installed
+(Check your Python version)
+```bash
+python --version
+#This project requires the following additional libraries:
+
+- `beautifulsoup4` - Parsing HTML and XML
+- `requests` - Sending HTTP requests
+
+## Set up a virtual environment
+python -m venv venv
+source venv/bin/activate
+
+## Install required dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
